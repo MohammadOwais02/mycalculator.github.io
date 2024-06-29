@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator By Owais-Sheikh</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="input1">
+            <input type="text" id="display">
+        </div>
+            <div>
+                <button class="btn" id="stylish" value="A/C" onclick="clearr()" onkeypress="clearr()" >A/C</button>
+                <button class="btn" id="stylish" value="Del" onclick="Del()" onkeypress="Del()">Del</button>
+                <button class="btn" id="stylish" value="%" onclick="solve('%')" onkeypress="solve('%')">%</button>
+                <button class="btn" id="stylish" vale="/" onclick="solve('/')"onkeypress="solve('/')" >/</button>
+            </div>
+
+            <div>
+                <button class="btn" value="7" onclick="solve('7')" onkeypress="solve('7')">7</button>
+                <button class="btn" value="8" onclick="solve('8')" onkeypress="solve('8')">8</button>
+                <button class="btn" value="9" onclick="solve('9')" onkeypress="solve('9')">9</button>
+                <button class="btn" id="colorful" value="*" onclick="solve('*')" onkeypress="solve('*')">X</button>
+            </div>
+
+            <div>
+                <button class="btn" value="4" onclick="solve('4')" onkeypress="solve('4')">4</button>
+                <button class="btn" value="5" onclick="solve('5')" onkeypress="solve('5')">5</button>
+                <button class="btn" value="6" onclick="solve('6')" onkeypress="solve('6')">6</button>
+                <button class="btn" id="colorful" value="-" onclick="solve('-')" onkeypress="solve('-')">-</button>
+            </div>
+
+            <div>
+                <button class="btn" value="1" onclick="solve('1')" onkeypress="solve('1')">1</button>
+                <button class="btn" value="2" onclick="solve('2')" onkeypress="solve('2')">2</button>
+                <button class="btn" value="3" onclick="solve('3')" onkeypress="solve('3')">3</button>
+                <button class="btn" id="colorful" value="+" onclick="solve('+')" onkeypress="solve('+')">+</button>
+
+            </div>
+
+            <div>
+                <button class="btn" id="big" value="0" onclick="solve('0')" onkeypress="solve('7')">0</button>
+                <button class="btn" value="." onclick="solve('.')" onkeypress="solve('7')">.</button>
+                <button class="btn" id="colorful" value="=" onclick="Resultt()" onkeypress="Resultt()">=</button>
+               
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/my.js"></script>
+</body>
+
+</html>
